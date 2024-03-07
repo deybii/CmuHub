@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body
+{
+    background-color: whitesmoke;
+}
+
+  
+.wrapper
+{ 
+    min-height: 96vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 24, 121, 0.7),rgba(0, 0, 0, 0.7)), url(images/cmubg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: orange;
+}
+
+.logo
+{
+    display: flex;
+    float: left;
+    padding-left: 40px;
+}
+.logo strong
+{
+    color: orange   ;
+}
+
+.logo h1
+{
+    padding-top: 20px;
+}
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li a:hover{
+    color: orange;
+    transition: color 0.5s ease;
+}
+
+.nav-links ul li::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: orange;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+.text-box
+{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box strong
+{
+    color: orange;
+}
+
+.text-box h1
+{
+    font-size: 62px;
+}
+
+.text-box p
+{
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
+
+.btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    border: 1px solid orange;
+    background: orange;
+    transition: 1s;
+}
+
+.footer
+{
+    flex: auto;
+    width: 100%;
+    height: 4vh;
+    background-color: orange;
+}
+
+.footer i
+{
+    padding-right: 10px;
+}
+
+.footer p
+{
+    display: inline-block;
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 80px;
+    font-size: 12px;
+}
+
+/*-----ABOUT US-----*/
+
+.header
+{
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(17, 17, 104);
+    background-position: center;    
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper-au
+{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 34, 168, 0.7),rgba(0, 0, 0, 0.7)), url(images/lenlen.jpg);
+    background-position: 10% 20%; 
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper-au div h1
+{
+    font-size: 50px;
+    color: orange;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 140px;
+}
+
+.text-box1,
+.text-box3
+{
+    width: 90%;
+    margin: 80px 80px;
+    position: absolute;
+    text-align: justify;
+}
+.text-box1 h1,
+.text-box3 h1
+{
+    color:rgb(17, 17, 104);
+    font-size: 40px;
+}
+.text-box1 h2
+{
+    color: orange;
+    font-size: 20px;
+    text-indent: 10px;
+}
+.text-box1 p,
+.text-box3 p,
+.text-box3 #ulli li
+{
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    margin: 10px 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 549;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.footer1
+{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(17, 17, 104);
+    color: white;   
+    position: absolute;
+}
+
+.footer1 img
+{
+    padding-left: 100px;
+    padding-top: 90px;
+    width: 300px;
+    height: 90px;
+    float: left;
+}
+
+.footer1 p
+{
+
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    align-items: center;
+    display: inline-block;
+    padding-top: 120px;
+    padding-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 100px;
+}
+
+.footer1 p i
+{
+    padding-right: 5px;
+}
+
+
+
+/*-------academics--------*/
+
+/*-------academics/links aside/ put inside the main--------*/
+/*
+aside
+{
+width: 30%;
+height: 60vh;
+margin: 80px 80px;
+background-color: blue;
+float: right;
+}
+*/
+
+
+.text-box1 ul
+{
+    padding-left: 40px;
+    
+}
+
+.text-box1 ul li
+{
+    font-size: 20px;
+    color: rgb(17, 17, 104);
+}
+.text-box1 ul li a,
+aside ul li a,
+#liss li
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(17, 17, 104);
+}
+
+.text-box1 ul li:hover,
+aside ul li:hover,
+#liss li:hover
+{
+    color: orange;
+    transition: 0.5s ease;
+}
+.text-box1 ul li a:hover,
+aside ul li a:hover,
+#liss li:hover
+{
+    color: orange;
+    transition: 0.5s ease;
+}
+
+/*---------acadchilds----------*/
+
+.cas
+{
+    padding-left: 25px;
+}
+.cas li
+{
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 549;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+aside
+{
+width: 30%;
+height: 60vh;
+padding: 0 40px;
+float: right;
+}   
+
+aside ul
+{
+    padding-left: 20px;
+}
+aside ul li 
+{
+    font-size: 17px;
+    color: rgb(17, 17, 104);
+}
+
+aside ul li a 
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(17, 17, 104);
+}
+
+aside h3
+{
+    color: rgb(17, 17, 104);
+}
+
+.text-box3 #ulli b
+{
+    font-size: 17px;
+}
+
+
+/*-------admission------*/
+
+#imge
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-box2
+{
+    width: 90%;
+    margin: 80px 80px;
+    position: absolute;
+    text-align: justify;
+}
+
+.text-box2 div img
+{
+    width: 92vh;
+    height: 80vh;
+}
+
+.text-box2 p
+{
+    width: 95%;
+    color: black;
+    font-size: 14px;
+    margin: 10px 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 549;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+#ah
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+#ah:hover
+{
+    color: rgb(97, 0, 97);
+    transition: 0.5s ease;
+}
+
+#ahh
+{
+    line-height: 38px;
+}
+
+main b{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+/*-----events-------*/
+
+.row
+{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.row div
+{
+    max-width: 55vh;
+    max-height: 100vh;
+    background-color: white;
+    text-align: justify;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s ease;
+}
+
+.row div img
+{
+    max-height: 45vh;
+}
+
+.row div:hover
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+    transform: scale(1.05);
+}
+
+.row div p a
+{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    color: rgb(17, 17, 104);
+}
+
+.row div p i
+{
+    visibility: hidden;
+}
+
+.row div p.ta:hover i 
+{
+    visibility: visible;
+}
+
+
+#bp a
+{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 0 0 0 30px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+#bp a:hover
+{
+    text-decoration: underline;
+}
+
+.row div p.ta 
+{
+    position: relative; 
+    transition: transform 0.5s ease; 
+}
+.row div p.ta:hover 
+{
+    transform: translateX(10px);
+}
+
+
+/*----event1----*/
+
+.wrapper-au1
+{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 34, 168, 0.7),rgba(0, 0, 0, 0.7)), url(images/lenlen.jpg);
+    background-position: 10% 20%; 
+    background-size: cover;
+    position: relative;
+}
+
+
+.wrapper-au1 div h1
+{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-top: 120px;
+}
+
+
+#ahhh p
+{
+    font-size: 18px;
+    line-height: 38px;
+    color: gray;
+}
+
+#ahhh p a
+{
+    color: rgb(17, 17, 104);
+    font-size: 18px;
+}
+
